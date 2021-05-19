@@ -31,6 +31,10 @@ header {
   display: none;
 }
 
+#desktop-nav .span1 {
+  text-align: end;
+}
+
 #logo {
   font-family: "Roboto", sans-serif;
   font-style: normal;

@@ -1,7 +1,7 @@
 const menuButton = document.getElementById('menuu');
 const mobileNav = document.getElementById('mobile-navv');
 const desctopNav = document.getElementById('desktop-nav');
-const logo = document.getElementById('logo')
+const logo = document.getElementById('logo');
 menuButton.addEventListener('click', () => {
   mobileNav.style.display = 'block';
   desctopNav.style.display = 'block';
@@ -25,7 +25,6 @@ navLink2.addEventListener('click', () => {
   mobileNav.style.display = 'none';
   desctopNav.style.display = 'none';
   logo.style.display = 'block';
-
 });
 
 navLink3.addEventListener('click', () => {
@@ -33,7 +32,6 @@ navLink3.addEventListener('click', () => {
   mobileNav.style.display = 'none';
   desctopNav.style.display = 'none';
   logo.style.display = 'block';
-
 });
 
 const close1 = document.getElementById('span1');

@@ -56,6 +56,24 @@ header {
   color: white;
 }
 
+.span1 {
+  margin-left: 100%;
+}
+
+#desktop-nav {
+  width: 90%;
+}
+
+#mobile-navv {
+  margin-right: 100%;
+  color: wheat;
+}
+
+#mobile-navv li a {
+  color: white;
+  font-weight: bold;
+}
+
 main {
   display: flex;
   flex-direction: column;

@@ -27,8 +27,17 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+.span1 {
+  margin-left: 100%;
+}
+
+#desktop-nav,
+#desktop-nav ul {
   display: none;
+}
+
+#desktop-nav .span1 {
+  text-align: end;
 }
 
 #logo {
@@ -49,6 +58,26 @@ header {
   width: 18px;
   height: 12px;
   color: white;
+}
+
+#desktop-nav {
+  width: 90%;
+}
+
+#mobile-navv {
+  margin-right: 100%;
+  color: wheat;
+}
+
+@media (min-width: 768px) {
+  #mobile-navv {
+    display: none;
+  }
+}
+
+#mobile-navv li a {
+  color: white;
+  font-weight: bold;
 }
 
 main {
